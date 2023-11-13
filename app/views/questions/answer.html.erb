@@ -1,0 +1,11 @@
+<blockquote class="blockquote col-6 border-start border-secondary border-5">
+  <p class='m-3'><%= params[:question]%></p>
+  <footer class="blockquote-footer m-3"><cite>You</cite></footer>
+</blockquote>
+
+<blockquote class="blockquote col-6 bg-warning border-start border-secondary border-5">
+  <p class='m-3 fw-bold'><%= @answer %></p>
+  <footer class="blockquote-footer m-3"><cite>Your coach</cite></footer>
+</blockquote>
+
+<%= link_to "Ask a new question", ask_path %>
